@@ -1,0 +1,52 @@
+
+
+.game-logo,
+.user-image{
+    height: 45px;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    margin-top: 10px;
+}
+
+/* lect section */
+/* middle section */
+/* right section */
+
+.left-section,
+.middle-section,
+.right-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-section{
+    display: flex;
+    flex: 1;
+    max-width: 500px;
+    justify-content: space-around;
+}
+
+.right-section{
+    flex: 1;
+    max-width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link{
+    cursor: pointer;
+}

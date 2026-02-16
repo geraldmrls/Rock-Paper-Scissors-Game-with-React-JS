@@ -1,0 +1,61 @@
+
+.game-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-computer-contianer{
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    justify-content: space-between;
+}
+
+.hand-emojies{
+    height: 100px;
+    object-fit: contain;
+}
+
+.computer-move-container,
+.user-move-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.user-move-name,
+.computer-move-name{
+    font-size: 17px;
+}
+
+.score{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    max-width: 310px;
+    justify-content: space-between;
+}
+
+.game-title{
+    font-size: 30px;
+}
+
+.wins-active{
+    color: green;
+    font-weight: bold;
+}
+
+.losses-active{
+    color: red;
+    font-weight: bold;
+}
+
+.ties-active{
+    color: orange;
+    font-weight: bold;
+}

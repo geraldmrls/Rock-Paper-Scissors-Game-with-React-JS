@@ -1,0 +1,31 @@
+.game-buttons-container {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.rock-button-image,
+.paper-button-image,
+.scissors-button-image {
+  height: 85px;
+  transition: 0s;
+  background-color: transparent;
+}
+
+
+
+.game-buttons {
+  border-radius: 50%;
+  padding: 25px;
+  border: solid, white, 2px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.game-buttons:hover {
+  background-color: rgb(70, 70, 70);
+  transition: 0.5s;
+}
