@@ -69,11 +69,11 @@ header {
 
     .game-logo,
     .user-image {
-        height: 35px;
+        height: 42px;
     }
 
     header {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
