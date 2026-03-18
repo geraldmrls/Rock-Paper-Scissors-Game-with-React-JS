@@ -7,6 +7,7 @@
   margin-bottom: 25px;
 }
 
+
 .rock-button-image,
 .paper-button-image,
 .scissors-button-image {
@@ -15,17 +16,53 @@
   background-color: transparent;
 }
 
-
-
 .game-buttons {
   border-radius: 50%;
   padding: 25px;
   border: solid, white, 2px;
   cursor: pointer;
   transition: 0.5s;
+  background-color: transparent;
 }
 
 .game-buttons:hover {
   background-color: rgb(70, 70, 70);
   transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+
+  .game-buttons-container{
+    max-width: 350px;
+  }
+
+
+  .game-buttons {
+    padding: 15px;
+  }
+
+  .rock-button-image,
+  .paper-button-image,
+  .scissors-button-image {
+    height: 45px;
+  }
+
+
+}
+
+@media (max-width: 480px) {
+  .game-buttons-container{
+    max-width: 250px;
+    margin-top: 20px;
+  }
+
+  .game-buttons {
+    padding: 10px;
+  }
+
+  .rock-button-image,
+  .paper-button-image,
+  .scissors-button-image {
+    height: 35px;
+  }
 }

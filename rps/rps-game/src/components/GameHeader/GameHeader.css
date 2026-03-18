@@ -1,12 +1,10 @@
-
-
 .game-logo,
-.user-image{
+.user-image {
     height: 45px;
     cursor: pointer;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,20 +24,20 @@ header{
 
 .left-section,
 .middle-section,
-.right-section{
+.right-section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.middle-section{
+.middle-section {
     display: flex;
     flex: 1;
     max-width: 500px;
     justify-content: space-around;
 }
 
-.right-section{
+.right-section {
     flex: 1;
     max-width: 120px;
     display: flex;
@@ -47,6 +45,35 @@ header{
     align-items: center;
 }
 
-.header-link{
+.header-link {
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .middle-section {
+        display: none;
+    }
+
+    header {
+        padding-left: 15px;
+        padding-right: 15px;
+        position: static;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .game-logo,
+    .user-image {
+        height: 35px;
+    }
+
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }

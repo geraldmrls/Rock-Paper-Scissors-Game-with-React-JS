@@ -5,6 +5,25 @@
   font-variation-settings: "wdth" 100;
   font-size: 15px;
   margin: 0px;
-  background-color: #191919;
   color: white;
+}
+
+body {
+  background-color: #191919;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
